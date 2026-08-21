@@ -23,7 +23,7 @@
     "url": "https://arvelixvision.com/products.html",
     "numberOfItems": 11,
     "itemListElement": [
-      { "@type": "Product", "position": 1, "name": "PR1600 Trail Camera", "description": "60MP Photo, 4K Video, Wi-Fi, IP66 Waterproof", "url": "https://arvelixvision.com/products.html", "image": "https://sc02.alicdn.com/kf/Hd6b3919dc87041189aec6876f75358ceD.jpg", "brand": {"@type": "Brand", "name": "SINMOS"}, "manufacturer": {"@type": "Organization", "name": "SHENZHEN SINMOS TECHNOLOGY CO., LTD"} },
+      { "@type": "Product", "position": 1, "name": "PR1600 Trail Camera", "description": "60MP Photo, 4K Video, Wi-Fi, IP65 Waterproof, 0.3s Trigger", "url": "https://arvelixvision.com/products.html", "image": "https://sc02.alicdn.com/kf/Hd6b3919dc87041189aec6876f75358ceD.jpg", "brand": {"@type": "Brand", "name": "SINMOS"}, "manufacturer": {"@type": "Organization", "name": "SHENZHEN SINMOS TECHNOLOGY CO., LTD"} },
       { "@type": "Product", "position": 2, "name": "PR8000 Trail Camera", "description": "60MP Image, 8K Video, Wi-Fi, Night Vision 49-66ft", "url": "https://arvelixvision.com/products.html", "image": "https://sc02.alicdn.com/kf/H2ee6574840214946810d1220b4e82f08x.jpg", "brand": {"@type": "Brand", "name": "SINMOS"}, "manufacturer": {"@type": "Organization", "name": "SHENZHEN SINMOS TECHNOLOGY CO., LTD"} },
       { "@type": "Product", "position": 3, "name": "PR801LTE Trail Camera", "description": "60MP, 8K Video, 4G LTE, IP66 Waterproof", "url": "https://arvelixvision.com/products.html", "image": "https://sc02.alicdn.com/kf/H4ab035adff0c4bf0b039acb0b761b0ba9.jpg", "brand": {"@type": "Brand", "name": "SINMOS"}, "manufacturer": {"@type": "Organization", "name": "SHENZHEN SINMOS TECHNOLOGY CO., LTD"} },
       { "@type": "Product", "position": 4, "name": "PR903G Solar Trail Camera", "description": "60MP, Solar-Powered, 4G LTE, IP66, Night Vision", "url": "https://arvelixvision.com/products.html", "image": "https://sc02.alicdn.com/kf/Hf4b426bed73544d2adb3927a86eb08c93.jpg", "brand": {"@type": "Brand", "name": "SINMOS"}, "manufacturer": {"@type": "Organization", "name": "SHENZHEN SINMOS TECHNOLOGY CO., LTD"} },
@@ -76,7 +76,8 @@
     .product-card-img { width: 100%; height: 220px; object-fit: contain; background: #fff; padding: 10px; display: block; }
     .product-card-body { padding: 20px; }
     .product-card-tag { font-size: 10px; letter-spacing: 2px; color: var(--green); text-transform: uppercase; margin-bottom: 6px; }
-    .product-card-name { font-size: 20px; font-weight: 700; color: var(--white); margin-bottom: 12px; }
+    .product-card-name { font-size: 20px; font-weight: 700; color: var(--white); margin-bottom: 6px; }
+    .product-card-title { font-size: 13px; color: var(--muted); line-height: 1.4; margin-bottom: 12px; }
     .product-card-specs { list-style: none; display: flex; flex-direction: column; gap: 6px; margin-bottom: 20px; }
     .product-card-specs li { font-size: 12px; color: var(--muted); display: flex; align-items: flex-start; gap: 8px; line-height: 1.4; }
     .product-card-specs li::before { content: '▸'; color: var(--green); flex-shrink: 0; }
@@ -97,6 +98,12 @@
     .modal-specs li::before { content: '▸'; color: var(--green); flex-shrink: 0; margin-top: 2px; }
     .modal-chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 32px; }
     .modal-chip { font-size: 11px; border: 1px solid #2a2a2a; padding: 5px 12px; color: var(--muted); }
+    .modal-name-lg { font-size: 20px; line-height: 1.3; }
+    .modal-table-wrap { max-height: 400px; overflow-y: auto; margin-bottom: 24px; }
+    .modal-table { width: 100%; border-collapse: collapse; }
+    .modal-table th, .modal-table td { border: 1px solid #2a2a2a; padding: 7px 12px; font-size: 12.5px; text-align: left; }
+    .modal-table th { background: var(--black); color: var(--white); width: 42%; font-weight: 600; }
+    .modal-table td { color: var(--text); }
     .modal-actions { display: flex; flex-direction: column; gap: 12px; }
     .btn-wa { display: flex; align-items: center; justify-content: center; gap: 10px; background: #25d366; color: #fff; padding: 14px 24px; font-size: 13px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; transition: background 0.2s; }
     .btn-wa:hover { background: #1da851; }
@@ -177,13 +184,14 @@
       <div class="product-card-body">
         <div class="product-card-tag">Model</div>
         <div class="product-card-name">PR1600</div>
+        <div class="product-card-title">Wireless Outdoor 60Mp 4K Night Vision Hunting Camera</div>
         <ul class="product-card-specs">
           <li>60MP / 4K Video / Wi-Fi</li>
-          <li>IP66 Waterproof</li>
-          <li>Mobile App Control</li>
+          <li>IP65 Waterproof</li>
+          <li>0.3s Trigger / No-Glow IR</li>
         </ul>
         <div class="product-card-footer">
-          <span class="tag-chip">60MP</span><span class="tag-chip">4K</span><span class="tag-chip">Wi-Fi</span><span class="tag-chip">IP66</span>
+          <span class="tag-chip">60MP</span><span class="tag-chip">4K</span><span class="tag-chip">Wi-Fi</span><span class="tag-chip">IP65</span>
         </div>
       </div>
     </div>
@@ -193,6 +201,7 @@
       <div class="product-card-body">
         <div class="product-card-tag">Model</div>
         <div class="product-card-name">PR8000</div>
+        <div class="product-card-title">8K WiFi Trail Camera</div>
         <ul class="product-card-specs">
           <li>60MP / 8K Video / Wi-Fi</li>
           <li>Night Vision 49–66ft</li>
@@ -209,6 +218,7 @@
       <div class="product-card-body">
         <div class="product-card-tag">Model</div>
         <div class="product-card-name">PR801LTE</div>
+        <div class="product-card-title">8K 4G LTE Trail Camera</div>
         <ul class="product-card-specs">
           <li>60MP / 8K Video / 4G LTE</li>
           <li>IP66 Waterproof</li>
@@ -225,6 +235,7 @@
       <div class="product-card-body">
         <div class="product-card-tag">Model</div>
         <div class="product-card-name">PR903G</div>
+        <div class="product-card-title">Solar 4G LTE Trail Camera</div>
         <ul class="product-card-specs">
           <li>60MP / Solar-Powered / 4G LTE</li>
           <li>IP66 Waterproof</li>
@@ -241,6 +252,7 @@
       <div class="product-card-body">
         <div class="product-card-tag">Model</div>
         <div class="product-card-name">PR802LTE</div>
+        <div class="product-card-title">4G LTE Trail Camera</div>
         <ul class="product-card-specs">
           <li>60MP / 4G LTE Transmission</li>
           <li>IP66 Waterproof</li>
@@ -257,6 +269,7 @@
       <div class="product-card-body">
         <div class="product-card-tag">Model</div>
         <div class="product-card-name">H2G</div>
+        <div class="product-card-title">Solar 4G Trail Camera · 7800mAh</div>
         <ul class="product-card-specs">
           <li>60MP / 4G LTE / Solar Panel</li>
           <li>7800mAh Built-in Battery</li>
@@ -273,6 +286,7 @@
       <div class="product-card-body">
         <div class="product-card-tag">Model</div>
         <div class="product-card-name">DL001</div>
+        <div class="product-card-title">Entry-Level 1080P Trail Camera</div>
         <ul class="product-card-specs">
           <li>1080P HD / Entry-Level</li>
           <li>IP54 Waterproof</li>
@@ -289,6 +303,7 @@
       <div class="product-card-body">
         <div class="product-card-tag">Model</div>
         <div class="product-card-name">PR903DW</div>
+        <div class="product-card-title">Solar WiFi 4K Trail Camera</div>
         <ul class="product-card-specs">
           <li>60MP / 4K / Wi-Fi / Solar</li>
           <li>940nm No-Glow Night Vision</li>
@@ -305,6 +320,7 @@
       <div class="product-card-body">
         <div class="product-card-tag">Model</div>
         <div class="product-card-name">PR700</div>
+        <div class="product-card-title">58MP 2.7K Trail Camera</div>
         <ul class="product-card-specs">
           <li>58MP / 2.7K Video</li>
           <li>IP66 Waterproof</li>
@@ -321,6 +337,7 @@
       <div class="product-card-body">
         <div class="product-card-tag">Model</div>
         <div class="product-card-name">PR1200</div>
+        <div class="product-card-title">36MP 1080P Trail Camera</div>
         <ul class="product-card-specs">
           <li>36MP / 1080P Full HD</li>
           <li>0.2s Trigger Speed</li>
@@ -337,6 +354,7 @@
       <div class="product-card-body">
         <div class="product-card-tag">Model</div>
         <div class="product-card-name">H1W</div>
+        <div class="product-card-title">Solar WiFi 8K Trail Camera · 7800mAh</div>
         <ul class="product-card-specs">
           <li>60MP / 8K Video / Wi-Fi / Solar</li>
           <li>7800mAh Built-in Battery</li>
@@ -391,8 +409,10 @@
 const products = {
   PR1600: {
     img: 'https://sc02.alicdn.com/kf/Hd6b3919dc87041189aec6876f75358ceD.jpg',
-    specs: ['60MP Photo Resolution — detailed wildlife identification','4K Video Resolution — high-definition footage review','IP66 Waterproof — reliable in rain, snow & harsh weather','Wi-Fi Connectivity — remote access & control via mobile app','Ideal for wildlife monitoring & outdoor security'],
-    chips: ['60MP','4K Video','Wi-Fi','IP66 Waterproof','Mobile App']
+    name: 'Wireless Outdoor 60Mp 4K Night Vision Hunting Camera',
+    full: [['Product Name','Wifi 4K Trail Camera'],['Model','PR1600'],['Mobile App','TrailCamGo'],['Image Resolution','60MP/42MP/36MP/20MP'],['Video Resolution','4K/1080P/720P'],['PIR Detection Angle','120°'],['PIR Detection Distance','Up to 20 m'],['PIR Distance','1-20 meters'],['Night Vision','46pcs 940nm No-Glow Infrared'],['Trigger Speed','0.3S'],['Remote distance','20M'],['Battery Type','8 × AA Batteries (no included)'],['Battery Life','Up to 6 months'],['Cloud Storage','No'],['Storage','Up to 128GB Micro SD (no included)'],['Waterproof','IP65'],['Dimensions','140*98*73mm'],['Weight','298g']],
+    specs: ['60MP Photo — 4 selectable resolutions (60/42/36/20MP)','4K/1080P/720P Video — 46pcs 940nm No-Glow Night Vision','0.3s Trigger Speed — 120° PIR detection up to 20m','TrailCamGo App — Wi-Fi remote access within 20m','IP65 Waterproof — up to 6 months on 8×AA batteries'],
+    chips: ['60MP','4K Video','Wi-Fi','No-Glow IR','IP65']
   },
   PR8000: {
     img: 'https://sc02.alicdn.com/kf/H2ee6574840214946810d1220b4e82f08x.jpg',
@@ -449,11 +469,21 @@ const products = {
 function openModal(model) {
   const p = products[model];
   if (!p) return;
+  const nameEl = document.getElementById('modalName');
   document.getElementById('modalImg').src = p.img;
   document.getElementById('modalImg').alt = model;
-  document.getElementById('modalName').textContent = model;
-  document.getElementById('modalSpecs').innerHTML = p.specs.map(s => `<li>${s}</li>`).join('');
-  document.getElementById('modalChips').innerHTML = p.chips.map(c => `<span class="modal-chip">${c}</span>`).join('');
+  nameEl.textContent = p.name || model;
+  nameEl.classList.toggle('modal-name-lg', !!p.full);
+  let specsHtml, chipsHtml;
+  if (p.full) {
+    specsHtml = '<div class="modal-table-wrap"><table class="modal-table">' + p.full.map(r => '<tr><th>' + r[0] + '</th><td>' + r[1] + '</td></tr>').join('') + '</table></div>';
+    chipsHtml = '';
+  } else {
+    specsHtml = p.specs.map(s => `<li>${s}</li>`).join('');
+    chipsHtml = p.chips.map(c => `<span class="modal-chip">${c}</span>`).join('');
+  }
+  document.getElementById('modalSpecs').innerHTML = specsHtml;
+  document.getElementById('modalChips').innerHTML = chipsHtml;
   const waMsg = encodeURIComponent(`Hello SINMOS, I'm interested in the ${model} trail camera. Please provide pricing and availability.`);
   document.getElementById('modalWA').href = `https://wa.me/8613418800187?text=${waMsg}`;
   document.getElementById('productModal').classList.add('active');
