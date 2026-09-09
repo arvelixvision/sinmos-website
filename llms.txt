@@ -14,16 +14,16 @@
 - OEM/ODM: Yes — logo printing, custom packaging, firmware customization, private label
 
 ## Key Products (Trail Cameras)
-- PR1600: 60MP photo, 4K video, WiFi, IP66 waterproof — mid-range WiFi trail camera
+- PR1600: WiFi 4K trail camera — 60MP photo (60/42/36/20MP), 4K/1080P/720P video, 46pcs 940nm no-glow infrared, 0.3s trigger speed, 120° PIR detection up to 20m, IP65 waterproof, 8×AA batteries (up to 6 months), up to 128GB Micro SD, TrailCamGo app, 140*98*73mm, 298g
 - PR8000: 60MP photo, 8K video, WiFi, night vision 49-66ft — high-resolution WiFi trail camera
 - PR801LTE: 60MP CMOS sensor, 8K video, 4G LTE, IP66 — cellular trail camera with remote monitoring
-- PR903G: 60MP, solar-powered, 4G LTE, IP66, night vision — solar cellular trail camera
-- PR802LTE: 60MP, 4G LTE transmission, IP66, night vision 49-66ft — cellular trail camera
+- PR903G: 60MP, solar-powered, 4G LTE, IP65, night vision — solar cellular trail camera
+- PR802LTE: 60MP, 4G LTE transmission, IP65, night vision 49-66ft — cellular trail camera
 - H2G: 60MP, 4G LTE, solar panel, 7800mAh built-in battery — solar 4G trail camera
 - DL001: 1080P HD video, IP54 waterproof, IR night vision, motion detection — entry-level trail camera
 - PR903DW: 60MP, 4K video, WiFi, solar, 940nm no-glow night vision, 5200mAh battery — solar WiFi trail camera
-- PR700: 58MP photo, 2.7K video, IP66 waterproof, 120° detection angle — mid-range trail camera
-- PR1200: 36MP photo, 1080P video, 0.2s trigger speed, 15-20M IR night vision — fast-trigger trail camera
+- PR700: 58MP photo, 2.7K video, IP65 waterproof, 120° detection angle — mid-range trail camera
+- PR1200: 36MP photo, 1080P video, 0.6s trigger speed, 940nm no-glow IR — trail camera
 - H1W: 60MP, 8K video, WiFi, solar, 7800mAh battery — high-end solar WiFi trail camera
 
 ## Key Selling Points
