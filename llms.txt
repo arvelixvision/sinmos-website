@@ -49,6 +49,7 @@
 - [Blog](https://arvelixvision.com/blog.html): Article index — trail camera buying guides, cellular cost analysis and OEM/ODM know-how
 
 ## Blog Posts
+- [Solar vs Battery Trail Camera - 5-Year Cost, Battery Count and Which to Buy](https://arvelixvision.com/solar-vs-battery-trail-camera.html): Battery consumption projection over five seasons, placement limits for panels (canopy shade), backup AA strategy, solar models PR903DW/PR903G/H1W/H2G specs, decision checklist
 - [Best Trail Camera for Deer Hunting in 2026 - Specs That Matter, Picks by Setup](https://arvelixvision.com/best-trail-camera-for-deer-hunting.html): Trigger speed versus megapixels, PIR detection coverage, 940nm no-glow for deer, battery strategy for cold season, model picks by setup (PR1600, PR700, PR1200, PR801LTE, PR903G, H1W), field placement tips
 - [850nm vs 940nm Night Vision - What Trail Camera Buyers Should Know](https://arvelixvision.com/850nm-vs-940nm-trail-camera.html): Infrared wavelength comparison, LED counts across the SINMOS range (46pcs 940nm vs 2-4pc 850nm), animal reaction and detectability, battery impact, market preference by customer type
 - [Cellular vs WiFi Trail Camera - Which One Fits Your Setup in 2026?](https://arvelixvision.com/cellular-vs-wifi-trail-camera.html): Range, running cost, battery drain, PR801LTE vs PR8000 comparison, BYO-SIM savings, solar options, buyer recommendations by use case
