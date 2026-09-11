@@ -74,8 +74,9 @@
     .nav-links a:hover { color: var(--white); }
     .btn-quote { background: var(--green); color: var(--black); padding: 10px 20px; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; text-decoration: none; transition: background 0.2s; }
     .btn-quote:hover { background: var(--green2); }
-    #home { min-height: 100vh; display: flex; align-items: center; padding: 100px 40px 60px; background: linear-gradient(135deg, #0a0a0a 60%, #0d1a0a 100%); }
-    .hero-inner { max-width: 1200px; margin: 0 auto; width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+    #home { position: relative; min-height: 100vh; display: flex; align-items: center; padding: 100px 40px 60px; background: #0a0a0a url('https://sc02.alicdn.com/kf/H51497f5fca62437f9db121b312b16ef9v.jpg') center right / cover no-repeat; }
+    #home::before { content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none; background: linear-gradient(100deg, rgba(10,10,10,0.9) 0%, rgba(10,10,10,0.82) 36%, rgba(10,10,10,0.55) 64%, rgba(10,10,10,0.3) 100%); }
+    .hero-inner { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
     .hero-tag { font-size: 11px; letter-spacing: 3px; color: var(--green); text-transform: uppercase; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
     .hero-tag::before { content: ''; display: block; width: 30px; height: 1px; background: var(--green); }
     .hero-h1 { font-size: clamp(36px, 5vw, 64px); font-weight: 900; line-height: 1.05; color: var(--white); text-transform: uppercase; margin-bottom: 24px; }
@@ -257,6 +258,8 @@
       nav { padding: 0 20px; }
       .nav-links { display: none; }
       section, #home { padding: 60px 20px; }
+      #home { background-position: 78% center; }
+      #home::before { background: linear-gradient(180deg, rgba(10,10,10,0.9) 0%, rgba(10,10,10,0.84) 55%, rgba(10,10,10,0.82) 100%); }
     }
     @media (max-width: 500px) {
       .adv-grid { grid-template-columns: 1fr; }
