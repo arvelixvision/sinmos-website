@@ -39,10 +39,7 @@
       "email": "sales@sinmos.com",
       "telephone": "+86-13418800187",
       "availableLanguage": ["English", "Chinese"]
-    },
-    "sameAs": [
-      "https://sinmos.en.alibaba.com"
-    ]
+    }
   }
   </script>
   <script type="application/ld+json">
@@ -145,6 +142,34 @@
     .info-item { background: var(--black); border: 1px solid #1e1e1e; padding: 20px 24px; }
     .info-label { font-size: 11px; color: var(--green); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px; }
     .info-value { font-size: 14px; color: var(--text); line-height: 1.6; }
+    /* About — factory video */
+    .about-video { display: flex; flex-direction: column; gap: 14px; }
+    .video-frame { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #000; border: 1px solid #1e1e1e; border-radius: 8px; overflow: hidden; }
+    .video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+    .video-caption { display: flex; align-items: center; gap: 8px; font-size: 11px; color: var(--muted); letter-spacing: 2px; text-transform: uppercase; }
+    .video-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 8px var(--green); flex-shrink: 0; }
+    .video-facts { font-size: 12px; color: var(--muted); line-height: 1.8; letter-spacing: 0.2px; padding-top: 10px; border-top: 1px solid #1e1e1e; }
+    /* Client Reviews */
+    .reviews-section { background: var(--black); overflow: hidden; }
+    .reviews-viewport { position: relative; margin-top: 40px; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 5%, #000 95%, transparent 100%); mask-image: linear-gradient(90deg, transparent 0, #000 5%, #000 95%, transparent 100%); }
+    .reviews-track { display: flex; align-items: stretch; gap: 20px; width: max-content; animation: reviewScroll 80s linear infinite; }
+    .reviews-viewport:hover .reviews-track { animation-play-state: paused; }
+    @keyframes reviewScroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    .review-card { flex: 0 0 380px; background: var(--gray); border: 1px solid #1e1e1e; border-radius: 8px; padding: 26px 24px; display: flex; flex-direction: column; transition: border-color 0.2s; }
+    .review-card:hover { border-color: var(--green); }
+    .review-photos { display: flex; gap: 8px; margin-bottom: 18px; }
+    .review-photos img { width: 82px; height: 82px; object-fit: cover; border-radius: 6px; border: 1px solid #2a2a2a; background: #000; display: block; }
+    .review-photos .is-video { position: relative; }
+    .review-photos .is-video::after { content: '\25B6'; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 18px; background: rgba(0,0,0,0.45); border-radius: 6px; }
+    .review-stars { color: var(--green); font-size: 14px; letter-spacing: 3px; margin-bottom: 16px; }
+    .review-quote { font-size: 14px; color: var(--text); line-height: 1.8; font-style: italic; flex: 1; margin-bottom: 22px; }
+    .review-footer { display: flex; align-items: center; gap: 12px; padding-top: 18px; border-top: 1px solid #1e1e1e; }
+    .review-avatar { width: 40px; height: 40px; border-radius: 50%; background: #1c1c1c; border: 1px solid #2a2a2a; color: var(--green); font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .review-id { flex: 1; min-width: 0; }
+    .review-name { font-size: 13px; font-weight: 700; color: var(--white); }
+    .review-role { font-size: 11.5px; color: var(--muted); margin-top: 3px; line-height: 1.5; }
+    .review-country { font-size: 11px; font-weight: 700; color: var(--muted); letter-spacing: 1px; flex-shrink: 0; }
+    @media (max-width: 900px) { .review-card { flex: 0 0 300px; } }
     /* FAQ */
     .faq-section { background: var(--gray); }
     .faq-list { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
@@ -193,11 +218,21 @@
     .form-note { font-size: 12px; color: var(--muted); }
     .success-msg { display: none; background: #0d2a0d; border: 1px solid var(--green); color: var(--green); padding: 14px 20px; font-size: 14px; }
     .error-msg { display: none; background: #2a0d0d; border: 1px solid #c00; color: #f88; padding: 14px 20px; font-size: 14px; }
-    footer { background: var(--gray); border-top: 1px solid #1e1e1e; padding: 32px 40px; }
-    .footer-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+    footer { background: var(--gray); border-top: 1px solid #1e1e1e; padding: 56px 40px 0; }
+    .footer-grid { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1.7fr 1fr 1fr 1.1fr; gap: 40px; padding-bottom: 44px; }
+    .footer-brand-logo { font-size: 24px; font-weight: 800; letter-spacing: 4px; color: var(--white); }
+    .footer-brand-logo span { color: var(--green); }
+    .footer-desc { font-size: 12.5px; color: var(--muted); line-height: 1.9; margin-top: 16px; max-width: 330px; }
+    .footer-col-title { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--green); margin-bottom: 18px; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 11px; }
+    .footer-links a { font-size: 12.5px; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--green); }
+    .footer-bar { max-width: 1200px; margin: 0 auto; border-top: 1px solid #1e1e1e; padding: 22px 0 26px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
     .footer-copy { font-size: 12px; color: var(--muted); }
-    .footer-certs { display: flex; gap: 12px; }
+    .footer-certs { display: flex; gap: 10px; }
     .footer-cert { font-size: 11px; border: 1px solid #2a2a2a; padding: 4px 10px; color: var(--muted); }
+    .footer-cta { background: var(--green); color: var(--black); font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; padding: 12px 26px; border-radius: 6px; transition: opacity 0.2s; }
+    .footer-cta:hover { opacity: 0.85; }
     /* Products Modal */
     .modal-overlay { display: none; position: fixed; inset: 0; z-index: 500; background: rgba(0,0,0,0.92); overflow-y: auto; }
     .modal-overlay.active { display: block; }
@@ -264,8 +299,9 @@
     @media (max-width: 500px) {
       .adv-grid { grid-template-columns: 1fr; }
       .form-row { grid-template-columns: 1fr; }
-      footer { padding: 24px 20px; }
-      .footer-inner { flex-direction: column; text-align: center; }
+      footer { padding: 40px 20px 0; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; padding-bottom: 32px; }
+      .footer-bar { flex-direction: column; text-align: center; }
     }
   </style>
 </head>
@@ -521,7 +557,7 @@
   </div>
 </section>
 
-<section class="certs-section">
+<section class="certs-section" id="certs">
   <div class="section-inner">
     <div class="section-tag">Certifications</div>
     <h2 class="section-h2">International <em>Quality</em> Standards</h2>
@@ -574,20 +610,239 @@
           <li>Reliable delivery to Europe, USA & global markets</li>
         </ul>
       </div>
-      <div class="about-info">
-        <div class="info-item"><div class="info-label">Company</div><div class="info-value">SHENZHEN SINMOS TECHNOLOGY CO., LTD</div></div>
-        <div class="info-item"><div class="info-label">Founded</div><div class="info-value">2015</div></div>
-        <div class="info-item"><div class="info-label">Address</div><div class="info-value">10th Floor, Jinxinnong Bldg, 18 Guangdian N.R., Guangming Sub-Dist., Shenzhen, Guangdong 518107, China</div></div>
-        <div class="info-item"><div class="info-label">Certifications</div><div class="info-value">CE &nbsp;|&nbsp; FCC &nbsp;|&nbsp; RoHS</div></div>
-        <div class="info-item"><div class="info-label">OEM / ODM</div><div class="info-value">From 100 pcs — logo, packaging, firmware & private label</div></div>
-        <div class="info-item"><div class="info-label">Exports</div><div class="info-value">US$3,000,000+ annually &nbsp;|&nbsp; 50+ countries</div></div>
-        <div class="info-item"><div class="info-label">Performance</div><div class="info-value">99.1% on-time dispatch &nbsp;|&nbsp; ≤6h response &nbsp;|&nbsp; 4.7/5 supplier rating</div></div>
+      <div class="about-video">
+        <div class="video-frame">
+          <iframe src="https://www.youtube.com/embed/Imq-9mtL32c?autoplay=0&mute=0&controls=1&rel=0&vq=hd720" title="SINMOS TECHNOLOGY Factory Tour — Trail Camera Manufacturing" allow="encrypted-media; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="video-caption"><span class="video-dot"></span>Shenzhen, China — Trail Camera Production Line</div>
+        <div class="video-facts">SHENZHEN SINMOS TECHNOLOGY CO., LTD &nbsp;·&nbsp; Founded 2015 &nbsp;·&nbsp; CE / FCC / RoHS Certified &nbsp;·&nbsp; OEM &amp; ODM from 100 pcs &nbsp;·&nbsp; Serving 50+ Countries</div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="faq-section">
+<section class="reviews-section">
+  <div class="section-inner">
+    <div class="section-tag">Client Reviews</div>
+    <h2 class="section-h2">What Our Clients <em>Say</em></h2>
+    <div class="reviews-viewport">
+      <div class="reviews-track">
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="review-photos">
+            <img src="https://sc04.alicdn.com/kf/A034bed6306454b2199d7cebbcca488285.jpg_960x960.jpg" alt="Buyer uploaded photo of the camera" loading="lazy" />
+            <img src="https://sc04.alicdn.com/kf/A7329ec62dc054f5d8b542ae26c3874f08.jpg_960x960.jpg" alt="Buyer uploaded photo of the camera" loading="lazy" />
+          </div>
+          <p class="review-quote">&ldquo;Impeccable &#128076;&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">FR</div>
+            <div class="review-id">
+              <div class="review-name">F***********T &middot; France</div>
+              <div class="review-role">PR700 2.7K 58MP Camera order</div>
+            </div>
+            <div class="review-country">Verified</div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="review-photos">
+            <span class="is-video"><img src="https://sc01.alicdn.com/kf/Hf985e5c3ccfd42ac958b89c1ccd22891U.jpg" alt="Buyer video thumbnail: night vision footage" loading="lazy" /></span>
+          </div>
+          <p class="review-quote">&ldquo;Great communication with Ms. Moni. Received items on time, cameras were quality checked before shipment. I tested them at home and they work well. Definitely recommend!&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">HR</div>
+            <div class="review-id">
+              <div class="review-name">A*********n &middot; Croatia</div>
+              <div class="review-role">Wildlife App Camera order</div>
+            </div>
+            <div class="review-country">Video</div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-quote">&ldquo;Good product, worth the price - it works well.&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">ID</div>
+            <div class="review-id">
+              <div class="review-name">H*********a &middot; Indonesia</div>
+              <div class="review-role">60MP Wireless Trail Camera order</div>
+            </div>
+            <div class="review-country">Verified</div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-quote">&ldquo;No problems with the product. Lacy is always responding and giving good information.&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">NL</div>
+            <div class="review-id">
+              <div class="review-name">F***************n &middot; Netherlands</div>
+              <div class="review-role">4K Wireless Hunting Camera order</div>
+            </div>
+            <div class="review-country">Verified</div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="review-photos">
+            <img src="https://sc04.alicdn.com/kf/A38b13df4ce434b21b232494a51d3db8bM.jpg_960x960.jpg" alt="Buyer uploaded photo of the camera" loading="lazy" />
+          </div>
+          <p class="review-quote">&ldquo;Excellent product, very well packaged.&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">CO</div>
+            <div class="review-id">
+              <div class="review-name">L********n &middot; Colombia</div>
+              <div class="review-role">8K WiFi Trail Camera order</div>
+            </div>
+            <div class="review-country">Verified</div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="review-photos">
+            <img src="https://sc02.alicdn.com/kf/H174b126167c942f38280f902b358cf46u.jpg" alt="Customer photo: PR1600 trail camera mounted on a tree" loading="lazy" />
+          </div>
+          <p class="review-quote">&ldquo;Good quality, great service, fast delivery. It was a pleasure doing business with Lacy - they are willing to provide extra service. So very satisfied.&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">US</div>
+            <div class="review-id">
+              <div class="review-name">J***********e &middot; United States</div>
+              <div class="review-role">Solar App Camera order</div>
+            </div>
+            <div class="review-country">Verified</div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-quote">&ldquo;Product matches the description, received quickly.&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">FR</div>
+            <div class="review-id">
+              <div class="review-name">p***********R &middot; France</div>
+              <div class="review-role">WiFi Solar 5200mAh Camera order</div>
+            </div>
+            <div class="review-country">Verified</div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="review-photos">
+            <img src="https://sc04.alicdn.com/kf/A034bed6306454b2199d7cebbcca488285.jpg_960x960.jpg" alt="Buyer uploaded photo of the camera" loading="lazy" />
+            <img src="https://sc04.alicdn.com/kf/A7329ec62dc054f5d8b542ae26c3874f08.jpg_960x960.jpg" alt="Buyer uploaded photo of the camera" loading="lazy" />
+          </div>
+          <p class="review-quote">&ldquo;Impeccable &#128076;&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">FR</div>
+            <div class="review-id">
+              <div class="review-name">F***********T &middot; France</div>
+              <div class="review-role">PR700 2.7K 58MP Camera order</div>
+            </div>
+            <div class="review-country">Verified</div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="review-photos">
+            <span class="is-video"><img src="https://sc01.alicdn.com/kf/Hf985e5c3ccfd42ac958b89c1ccd22891U.jpg" alt="Buyer video thumbnail: night vision footage" loading="lazy" /></span>
+          </div>
+          <p class="review-quote">&ldquo;Great communication with Ms. Moni. Received items on time, cameras were quality checked before shipment. I tested them at home and they work well. Definitely recommend!&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">HR</div>
+            <div class="review-id">
+              <div class="review-name">A*********n &middot; Croatia</div>
+              <div class="review-role">Wildlife App Camera order</div>
+            </div>
+            <div class="review-country">Video</div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-quote">&ldquo;Good product, worth the price - it works well.&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">ID</div>
+            <div class="review-id">
+              <div class="review-name">H*********a &middot; Indonesia</div>
+              <div class="review-role">60MP Wireless Trail Camera order</div>
+            </div>
+            <div class="review-country">Verified</div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-quote">&ldquo;No problems with the product. Lacy is always responding and giving good information.&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">NL</div>
+            <div class="review-id">
+              <div class="review-name">F***************n &middot; Netherlands</div>
+              <div class="review-role">4K Wireless Hunting Camera order</div>
+            </div>
+            <div class="review-country">Verified</div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="review-photos">
+            <img src="https://sc04.alicdn.com/kf/A38b13df4ce434b21b232494a51d3db8bM.jpg_960x960.jpg" alt="Buyer uploaded photo of the camera" loading="lazy" />
+          </div>
+          <p class="review-quote">&ldquo;Excellent product, very well packaged.&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">CO</div>
+            <div class="review-id">
+              <div class="review-name">L********n &middot; Colombia</div>
+              <div class="review-role">8K WiFi Trail Camera order</div>
+            </div>
+            <div class="review-country">Verified</div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="review-photos">
+            <img src="https://sc02.alicdn.com/kf/H174b126167c942f38280f902b358cf46u.jpg" alt="Customer photo: PR1600 trail camera mounted on a tree" loading="lazy" />
+          </div>
+          <p class="review-quote">&ldquo;Good quality, great service, fast delivery. It was a pleasure doing business with Lacy - they are willing to provide extra service. So very satisfied.&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">US</div>
+            <div class="review-id">
+              <div class="review-name">J***********e &middot; United States</div>
+              <div class="review-role">Solar App Camera order</div>
+            </div>
+            <div class="review-country">Verified</div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-quote">&ldquo;Product matches the description, received quickly.&rdquo;</p>
+          <div class="review-footer">
+            <div class="review-avatar">FR</div>
+            <div class="review-id">
+              <div class="review-name">p***********R &middot; France</div>
+              <div class="review-role">WiFi Solar 5200mAh Camera order</div>
+            </div>
+            <div class="review-country">Verified</div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq-section" id="faq">
   <div class="section-inner">
     <div class="section-tag">FAQ</div>
     <h2 class="section-h2">Frequently Asked <em>Questions</em></h2>
@@ -877,9 +1132,41 @@
 </div>
 
 <footer>
-  <div class="footer-inner">
-    <div class="footer-copy">© 2025 SHENZHEN SINMOS TECHNOLOGY CO., LTD &nbsp;|&nbsp; <a href="mailto:sales@sinmos.com" style="color:inherit;text-decoration:none;">sales@sinmos.com</a></div>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-brand-logo">SINMOS<span>.</span></div>
+      <p class="footer-desc">Factory-direct manufacturer of trail cameras, video doorbells and security cameras. Founded 2015 in Shenzhen, serving 50+ countries with CE / FCC / RoHS certified OEM &amp; ODM production.</p>
+    </div>
+    <div>
+      <div class="footer-col-title">Products</div>
+      <ul class="footer-links">
+        <li><a href="#products">Trail Camera Lineup</a></li>
+        <li><a href="products.html">4G LTE Cellular Cameras</a></li>
+        <li><a href="products.html">Solar Powered Cameras</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Resources</div>
+      <ul class="footer-links">
+        <li><a href="blog.html">Trail Camera Buyer's Guide</a></li>
+        <li><a href="#certs">Certifications</a></li>
+        <li><a href="#faq">FAQ &amp; Support</a></li>
+        <li><a href="#advantages">Why SINMOS</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Company</div>
+      <ul class="footer-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Imq-9mtL32c" target="_blank" rel="noopener">Factory Tour</a></li>
+        <li><a href="#contact">Contact &amp; OEM Inquiry</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bar">
+    <div class="footer-copy">&copy; 2025 SHENZHEN SINMOS TECHNOLOGY CO., LTD. All rights reserved.</div>
     <div class="footer-certs"><span class="footer-cert">CE</span><span class="footer-cert">FCC</span><span class="footer-cert">RoHS</span></div>
+    <a class="footer-cta" href="#contact">Get a Free Quote</a>
   </div>
 </footer>
 
