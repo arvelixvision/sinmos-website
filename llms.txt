@@ -16,7 +16,7 @@
 ## Key Products (Trail Cameras)
 - PR1600: WiFi 4K trail camera — 60MP photo (60/42/36/20MP), 4K/1080P/720P video, 46pcs 940nm no-glow infrared, 0.3s trigger speed, 120° PIR detection up to 20m, IP65 waterproof, 8×AA batteries (up to 6 months), up to 128GB Micro SD, TrailCamGo app, 140*98*73mm, 298g
 - PR8000: 60MP photo, 8K video, WiFi, night vision 49-66ft — high-resolution WiFi trail camera
-- PR801LTE: 60MP CMOS sensor, 8K video, 4G LTE, IP66 — cellular trail camera with remote monitoring
+- PR801LTE: 60MP CMOS sensor, 8K video, 4G LTE, IP65, EU/US bands — cellular trail camera with remote monitoring
 - PR903G: 60MP, solar-powered, 4G LTE, IP65, night vision — solar cellular trail camera
 - PR802LTE: 60MP, 4G LTE transmission, IP65, night vision 49-66ft — cellular trail camera
 - H2G: 60MP, 4G LTE, solar panel, 7800mAh built-in battery — solar 4G trail camera
@@ -46,10 +46,12 @@
 - [Homepage](https://arvelixvision.com/): Professional trail camera manufacturer — company intro, certifications, B2B advantages, FAQ, inquiry form
 - [Products](https://arvelixvision.com/products.html): Full lineup of 11 trail camera models with specs and WhatsApp quote
 - [About Us](https://arvelixvision.com/about.html): Company history, factory tour video, certifications, quality standards
-- [Blog](https://arvelixvision.com/blog.html): Trail camera buying guides and hunting tech insights
+- [Blog](https://arvelixvision.com/blog.html): Article index — trail camera buying guides, cellular cost analysis and OEM/ODM know-how
 
 ## Blog Posts
-- [How to Choose a Trail Camera in 2026: The Complete Buyer's Guide](https://arvelixvision.com/blog.html): Trigger speed, night vision distance, cellular vs WiFi vs SD card, solar power, resolution, waterproofing, battery strategy
+- [How to Choose a Trail Camera in 2026: The Complete Buyer's Guide](https://arvelixvision.com/how-to-choose-trail-camera-2026.html): Trigger speed, night vision distance, cellular vs WiFi vs SD card, solar power, resolution, waterproofing, battery strategy
+- [Cellular Trail Cameras: The Real Cost of Monthly Plans (2026)](https://arvelixvision.com/cellular-trail-camera-plans-cost.html): Brand plan costs, BYO-SIM strategy, 3-year cost comparison, 50-80% savings
+- [OEM vs ODM: What Trail Camera Brand Owners Need to Know](https://arvelixvision.com/oem-vs-odm-trail-camera.html): OEM vs ODM differences, MOQ, customization scope, IP ownership, payment terms
 
 ## Contact
 - Email: sales@sinmos.com
