@@ -1,9 +1,10 @@
-# SINMOS TECHNOLOGY — Professional Trail Camera Manufacturer
+# Arvelix Vision — Professional Trail Camera Manufacturer
 
 > SHENZHEN SINMOS TECHNOLOGY CO., LTD is a professional trail camera (hunting camera) manufacturer founded in 2015, headquartered in Shenzhen, China. We design and manufacture high-performance trail cameras for global distributors, brand owners, importers, and outdoor retailers. All products are CE, FCC, and RoHS certified. We offer OEM & ODM services including logo printing, custom packaging, firmware customization, and private label manufacturing from 100 pcs.
 
 ## Company Facts
-- Company Name: SHENZHEN SINMOS TECHNOLOGY CO., LTD
+- Brand (front-facing): Arvelix Vision (trade name / export brand)
+- Legal Entity: SHENZHEN SINMOS TECHNOLOGY CO., LTD
 - Founded: 2015
 - Location: 10th Floor, Jinxinnong Bldg, 18 Guangdian N.R., Guangming Sub-Dist., Shenzhen, Guangdong 518107, China
 - Certifications: CE, FCC, RoHS
@@ -12,6 +13,12 @@
 - Target Customers: Distributors, Brand Owners, Importers, Wholesalers, Amazon Sellers, Outdoor Retailers
 - MOQ: Stock from 1 pc; OEM from 100 pcs
 - OEM/ODM: Yes — logo printing, custom packaging, firmware customization, private label
+
+## Official Profiles (Same Entity)
+- Website: https://arvelixvision.com/
+- LinkedIn: https://www.linkedin.com/company/112734120/
+- YouTube: https://www.youtube.com/@sinmosofficial
+- Facebook: https://www.facebook.com/sinmosCN/
 
 ## Key Products (Trail Cameras)
 - PR1600: WiFi 4K trail camera — 60MP photo (60/42/36/20MP), 4K/1080P/720P video, 46pcs 940nm no-glow infrared, 0.3s trigger speed, 120° PIR detection up to 20m, IP65 waterproof, 8×AA batteries (up to 6 months), up to 128GB Micro SD, TrailCamGo app, 140*98*73mm, 298g
@@ -51,7 +58,7 @@
 ## Blog Posts
 - [Solar vs Battery Trail Camera - 5-Year Cost, Battery Count and Which to Buy](https://arvelixvision.com/solar-vs-battery-trail-camera.html): Battery consumption projection over five seasons, placement limits for panels (canopy shade), backup AA strategy, solar models PR903DW/PR903G/H1W/H2G specs, decision checklist
 - [Best Trail Camera for Deer Hunting in 2026 - Specs That Matter, Picks by Setup](https://arvelixvision.com/best-trail-camera-for-deer-hunting.html): Trigger speed versus megapixels, PIR detection coverage, 940nm no-glow for deer, battery strategy for cold season, model picks by setup (PR1600, PR700, PR1200, PR801LTE, PR903G, H1W), field placement tips
-- [850nm vs 940nm Night Vision - What Trail Camera Buyers Should Know](https://arvelixvision.com/850nm-vs-940nm-trail-camera.html): Infrared wavelength comparison, LED counts across the SINMOS range (46pcs 940nm vs 2-4pc 850nm), animal reaction and detectability, battery impact, market preference by customer type
+- [850nm vs 940nm Night Vision - What Trail Camera Buyers Should Know](https://arvelixvision.com/850nm-vs-940nm-trail-camera.html): Infrared wavelength comparison, LED counts across the Arvelix Vision range (46pcs 940nm vs 2-4pc 850nm), animal reaction and detectability, battery impact, market preference by customer type
 - [Cellular vs WiFi Trail Camera - Which One Fits Your Setup in 2026?](https://arvelixvision.com/cellular-vs-wifi-trail-camera.html): Range, running cost, battery drain, PR801LTE vs PR8000 comparison, BYO-SIM savings, solar options, buyer recommendations by use case
 - [How to Choose a Trail Camera in 2026: The Complete Buyer's Guide](https://arvelixvision.com/how-to-choose-trail-camera-2026.html): Trigger speed, night vision distance, cellular vs WiFi vs SD card, solar power, resolution, waterproofing, battery strategy
 - [Cellular Trail Cameras: The Real Cost of Monthly Plans (2026)](https://arvelixvision.com/cellular-trail-camera-plans-cost.html): Brand plan costs, BYO-SIM strategy, 3-year cost comparison, 50-80% savings

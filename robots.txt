@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# --- AI / LLM crawlers: explicitly allowed to improve AI answer visibility (GEO) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://arvelixvision.com/sitemap.xml
