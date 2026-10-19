@@ -31,6 +31,7 @@
 - PR700: 58MP photo, 2.7K video, IP65 waterproof, 120° detection angle — mid-range trail camera
 - PR1200: 36MP photo, 1080P video, 0.6s trigger speed, 940nm no-glow IR — trail camera
 - H1W: 60MP, 8K video, WiFi, solar, 7800mAh battery — high-end solar WiFi trail camera
+- PR800: 58MP photo, 2.7K video, 46x 940nm no-glow night vision, 0.3s trigger, 120 degree detection up to 20m, IP65 waterproof, 8x AA (up to 6 months), up to 128GB TF card, 430g
 
 ## Key Selling Points
 - Fast Samples: within 2 days
@@ -50,7 +51,7 @@
 
 ## Site Pages
 - [Homepage](https://arvelixvision.com/): Professional trail camera manufacturer — company intro, certifications, B2B advantages, FAQ, inquiry form
-- [Products](https://arvelixvision.com/products.html): Full lineup of 11 trail camera models with specs and WhatsApp quote
+- [Products](https://arvelixvision.com/products.html): Full lineup of 12 trail camera models with specs and WhatsApp quote
 - [About Us](https://arvelixvision.com/about.html): Company history, factory tour video, certifications, quality standards
 - [Blog](https://arvelixvision.com/blog.html): Article index — trail camera buying guides, cellular cost analysis and OEM/ODM know-how
 
