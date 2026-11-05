@@ -55,6 +55,15 @@
 - [About Us](https://arvelixvision.com/about.html): Company history, factory tour video, certifications, quality standards
 - [Blog](https://arvelixvision.com/blog.html): Article index — trail camera buying guides, cellular cost analysis and OEM/ODM know-how
 
+## Product Detail Pages
+- [PR8000 8K WiFi Trail Camera](https://arvelixvision.com/pr8000-8k-wifi-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
+- [PR903G Solar 4G LTE Trail Camera](https://arvelixvision.com/pr903g-solar-4g-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
+- [DL001 1080P Trail Camera](https://arvelixvision.com/dl001-1080p-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
+- [PR903DW Solar WiFi Trail Camera](https://arvelixvision.com/pr903dw-solar-wifi-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
+- [PR700 2.7K Trail Camera](https://arvelixvision.com/pr700-2.7k-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
+- [PR1200 1080P Trail Camera](https://arvelixvision.com/pr1200-1080p-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
+- [H1W Solar WiFi Trail Camera](https://arvelixvision.com/h1w-solar-wifi-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
+
 ## Blog Posts
 - [Solar vs Battery Trail Camera - 5-Year Cost, Battery Count and Which to Buy](https://arvelixvision.com/solar-vs-battery-trail-camera.html): Battery consumption projection over five seasons, placement limits for panels (canopy shade), backup AA strategy, solar models PR903DW/PR903G/H1W/H2G specs, decision checklist
 - [Best Trail Camera for Deer Hunting in 2026 - Specs That Matter, Picks by Setup](https://arvelixvision.com/best-trail-camera-for-deer-hunting.html): Trigger speed versus megapixels, PIR detection coverage, 940nm no-glow for deer, battery strategy for cold season, model picks by setup (PR1600, PR700, PR1200, PR801LTE, PR903G, H1W), field placement tips
