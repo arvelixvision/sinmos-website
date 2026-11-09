@@ -1,7 +1,9 @@
 User-agent: *
 Allow: /
 
-# --- AI / LLM crawlers: explicitly allowed to improve AI answer visibility (GEO) ---
+# Existing crawler access policy retained.
+# Search/user retrieval and model-training agents serve different purposes.
+# Allowing a crawler does not guarantee indexing, citation or recommendation.
 User-agent: GPTBot
 Allow: /
 

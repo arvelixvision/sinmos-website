@@ -22,7 +22,7 @@
 ## Key Products (Trail Cameras)
 - PR1600: WiFi 4K trail camera — 60MP photo (60/42/36/20MP), 4K/1080P/720P video, 46pcs 940nm no-glow infrared, 0.3s trigger speed, 120° PIR detection up to 20m, IP65 waterproof, 8×AA batteries (up to 6 months), up to 128GB Micro SD, TrailCamGo app, 140*98*73mm, 298g
 - PR8000: 60MP photo, 8K video, WiFi, night vision 49-66ft — high-resolution WiFi trail camera
-- PR801LTE: 60MP CMOS sensor, 8K video, 4G LTE, IP65, EU/US bands — cellular trail camera with remote monitoring
+- PR801LTE: 60MP photo resolution (confirm native sensor specification), 8K video, 4G LTE, IP65, EU/US bands — cellular trail camera with remote monitoring
 - PR903G: 60MP, solar-powered, 4G LTE, IP65, night vision — solar cellular trail camera
 - PR802LTE: 60MP, 4G LTE transmission, IP65, night vision 49-66ft — cellular trail camera
 - H2G: 60MP, 4G LTE, solar panel, 7800mAh built-in battery, no AA batteries — solar 4G trail camera
@@ -85,3 +85,10 @@ In-stock samples are generally ready in 2 days. Private-label production general
 ## Factory and quality control
 - [Quality control](https://arvelixvision.com/quality-control.html): Every camera undergoes airtightness testing during production. Factory footage shows assembly and an airtightness test station. Specific IP ratings require model-specific reports.
 - [Factory and documents](https://arvelixvision.com/about.html#factory): Factory photos, assembly footage and model-specific compliance documents.
+
+## Procurement guides
+- [Wholesale & Private-Label Trail Camera Sourcing Guide](https://arvelixvision.com/trail-camera-sourcing-guide.html): Compare trail camera connectivity, sample orders, private-label MOQ, production timing and model-specific documents before requesting a wholesale quotation.
+- [4G Trail Camera Compatibility: LTE Bands, SIM & App Checklist](https://arvelixvision.com/4g-trail-camera-compatibility.html): A purchasing checklist for cellular trail cameras: verify regional hardware, LTE bands, carrier acceptance, SIM settings, app fees and real network tests.
+- [Trail Camera Sample Testing Checklist for Importers & Brand Owners](https://arvelixvision.com/trail-camera-sample-testing-checklist.html): Evaluate a trail camera sample before bulk ordering: original footage, trigger trials, network checks, power conditions, documentation and written approval.
+
+Guide notes: These purchasing checklists are not measured performance reports or carrier certifications. Solar runtime depends on conditions; WiFi app access is local unless the exact model explicitly supports internet access. Confirm model-specific specifications and destination requirements before ordering.
