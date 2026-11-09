@@ -1,9 +1,9 @@
-# Arvelix Vision — Professional Trail Camera Manufacturer
+# Arvelix Vision — Trail Camera Website
 
 > SHENZHEN SINMOS TECHNOLOGY CO., LTD is a professional trail camera (hunting camera) manufacturer founded in 2015, headquartered in Shenzhen, China. We design and manufacture high-performance trail cameras for global distributors, brand owners, importers, and outdoor retailers. All products are CE, FCC, and RoHS certified. We offer OEM & ODM services including logo printing and stickers from 100 pcs, packaging from 1,000 pcs, and firmware or hardware work by quotation.
 
 ## Company Facts
-- Brand (front-facing): Arvelix Vision (trade name / export brand)
+- Website name: Arvelix Vision
 - Legal Entity: SHENZHEN SINMOS TECHNOLOGY CO., LTD
 - Founded: 2015
 - Location: 10th Floor, Jinxinnong Bldg, 18 Guangdian N.R., Guangming Sub-Dist., Shenzhen, Guangdong 518107, China

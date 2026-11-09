@@ -4,7 +4,7 @@
 
 Three English purchasing guides answer distinct supplier-selection, cellular-compatibility and sample-evaluation questions. They use existing catalogue and OEM information and link to published factory footage and model-specific documents. They contain no invented field results, customer endorsements or carrier approvals.
 
-Existing Organization records share the brand/legal-company relationship, identity, official profiles and sales contact. Existing crawler permissions are preserved; search retrieval and model training are separate purposes. Neither crawler access, structured data, llms.txt nor sitemap inclusion guarantees a citation. FAQ markup describes visible questions; no search rich-result eligibility is promised.
+Organization records identify SHENZHEN SINMOS TECHNOLOGY CO., LTD using its company name, official profiles and sales contact. Arvelix Vision is used as the website name, without an export-brand claim or a product-brand assignment. Existing crawler permissions are preserved; search retrieval and model training are separate purposes. Neither crawler access, structured data, llms.txt nor sitemap inclusion guarantees a citation. FAQ markup describes visible questions; no search rich-result eligibility is promised.
 
 ## Account-dependent work still required
 
