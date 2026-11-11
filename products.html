@@ -277,6 +277,9 @@
         <div class="product-card-footer">
           <span class="tag-chip">60MP</span><span class="tag-chip">Solar</span><span class="tag-chip">4G LTE</span><span class="tag-chip">IP65</span>
         </div>
+        <div style="margin-top:10px;text-align:right;">
+          <a href="pr903g-solar-4g-trail-camera.html" onclick="event.stopPropagation()" style="font-size:11px;color:var(--green);text-decoration:none;font-weight:600;letter-spacing:0.5px;">Dedicated Page &rarr;</a>
+        </div>
       </div>
     </div>
 
@@ -723,6 +726,7 @@
           Get Quote via WhatsApp
         </a>
         <a class="btn-email" href="mailto:sales@sinmos.com">✉ Email: sales@sinmos.com</a>
+        <a class="btn-spec-link" id="modalDedicatedLink" href="#" style="display:none;font-weight:700;color:var(--white);background:#1a2e12;border:1px solid #3b6b15;padding:8px 14px;border-radius:2px;text-decoration:none;margin-top:4px;">Open Dedicated Model Page &rarr;</a>
         <a class="btn-spec-link" id="modalSpecLink" href="#specs" onclick="jumpToSpec(event)">View Full Specifications &darr;</a>
       </div>
     </div>
@@ -828,6 +832,15 @@ function openModal(model) {
   const waMsg = encodeURIComponent(`Hello SINMOS, I'm interested in the ${model} trail camera. Please provide pricing and availability.`);
   document.getElementById('modalWA').href = `https://wa.me/8613418800187?text=${waMsg}`;
   document.getElementById('modalSpecLink').setAttribute('data-target', 'spec-' + model.toLowerCase());
+  
+  const dLink = document.getElementById('modalDedicatedLink');
+  if (model === 'PR903G') {
+    dLink.href = 'pr903g-solar-4g-trail-camera.html';
+    dLink.style.display = 'block';
+  } else {
+    dLink.style.display = 'none';
+  }
+
   document.getElementById('productModal').classList.add('active');
   document.body.style.overflow = 'hidden';
 }

@@ -1154,6 +1154,7 @@
         <div id="pdContent"></div>
         <div class="pd-cta">
           <a class="btn-wa" id="pdWA" href="https://wa.me/8613418800187" target="_blank">Chat on WhatsApp</a>
+          <a class="btn-primary" id="pdDedicatedLink" href="#" style="display:none;background:#1a2e12;border:1px solid #3b6b15;color:#fff;">View Dedicated Page &rarr;</a>
           <a class="btn-primary" href="#contact" onclick="closePdModal()">Request a Quote</a>
         </div>
       </div>
@@ -1315,6 +1316,15 @@
     document.getElementById('pdContent').innerHTML = html;
     const waMsg = encodeURIComponent('Hello SINMOS, I\'m interested in the ' + model + ' trail camera. Please provide pricing and availability.');
     document.getElementById('pdWA').href = 'https://wa.me/8613418800187?text=' + waMsg;
+
+    const pdDedLink = document.getElementById('pdDedicatedLink');
+    if (model === 'PR903G') {
+      pdDedLink.href = 'pr903g-solar-4g-trail-camera.html';
+      pdDedLink.style.display = 'inline-block';
+    } else {
+      pdDedLink.style.display = 'none';
+    }
+
     document.getElementById('pdModal').classList.add('active');
     document.body.style.overflow = 'hidden';
   }
