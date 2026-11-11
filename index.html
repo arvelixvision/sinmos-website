@@ -71,26 +71,27 @@
     .nav-links a:hover { color: var(--white); }
     .btn-quote { background: var(--green); color: var(--black); padding: 10px 20px; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; text-decoration: none; transition: background 0.2s; }
     .btn-quote:hover { background: var(--green2); }
-    #home { position: relative; min-height: 100vh; display: flex; align-items: center; padding: 100px 40px 60px; background: #0a0a0a url('https://sc02.alicdn.com/kf/H0df31f6dcb6e4da1b9a39de8dacca9f0A.jpg') center right / cover no-repeat; }
-    #home::before { content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none; background: linear-gradient(100deg, rgba(10,10,10,0.9) 0%, rgba(10,10,10,0.82) 36%, rgba(10,10,10,0.55) 64%, rgba(10,10,10,0.3) 100%); }
-    .hero-inner { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
-    .hero-tag { font-size: 11px; letter-spacing: 3px; color: var(--green); text-transform: uppercase; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
-    .hero-tag::before { content: ''; display: block; width: 30px; height: 1px; background: var(--green); }
-    .hero-h1 { font-size: clamp(36px, 5vw, 64px); font-weight: 900; line-height: 1.05; color: var(--white); text-transform: uppercase; margin-bottom: 24px; }
+    #home { position: relative; min-height: 100vh; display: flex; flex-direction: column; justify-content: space-between; padding: 110px 40px 0; background: #0a0a0a url('https://sc02.alicdn.com/kf/H0df31f6dcb6e4da1b9a39de8dacca9f0A.jpg') center right / cover no-repeat; }
+    #home::before { content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none; background: linear-gradient(90deg, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0.85) 42%, rgba(10,10,10,0.35) 75%, rgba(10,10,10,0.1) 100%); }
+    .hero-inner { position: relative; z-index: 1; max-width: 1200px; margin: auto auto; width: 100%; display: grid; grid-template-columns: 560px 1fr; gap: 40px; align-items: center; padding: 40px 0; }
+    .hero-tag { font-size: 11px; letter-spacing: 2.5px; color: var(--green); text-transform: uppercase; margin-bottom: 18px; display: flex; align-items: center; gap: 10px; font-weight: 700; }
+    .hero-tag::before { content: ''; display: block; width: 24px; height: 2px; background: var(--green); }
+    .hero-h1 { font-size: clamp(32px, 4.2vw, 52px); font-weight: 900; line-height: 1.12; color: var(--white); text-transform: uppercase; margin-bottom: 20px; letter-spacing: 0.5px; }
     .hero-h1 em { font-style: italic; color: var(--green); font-weight: 900; }
-    .hero-desc { font-size: 15px; color: var(--muted); max-width: 440px; margin-bottom: 36px; line-height: 1.8; }
-    .hero-btns { display: flex; gap: 16px; flex-wrap: wrap; }
-    .btn-primary { background: var(--green); color: var(--black); padding: 14px 28px; font-size: 13px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; transition: background 0.2s; }
+    .hero-desc { font-size: 14.5px; color: var(--muted); max-width: 480px; margin-bottom: 32px; line-height: 1.75; }
+    .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; }
+    .btn-primary { background: var(--green); color: var(--black); padding: 13px 26px; font-size: 12.5px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; transition: background 0.2s; border-radius: 2px; }
     .btn-primary:hover { background: var(--green2); }
-    .btn-secondary { border: 1px solid #333; color: var(--text); padding: 14px 28px; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; transition: border-color 0.2s; }
-    .btn-secondary:hover { border-color: var(--green); color: var(--green); }
-    .hero-right { display: flex; flex-direction: column; gap: 16px; }
-    .cert-badges { display: flex; gap: 12px; flex-wrap: wrap; }
-    .cert-badge { border: 1px solid #2a2a2a; padding: 8px 16px; font-size: 12px; color: var(--muted); letter-spacing: 1px; }
-    .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; }
-    .stat-card { background: var(--gray); border: 1px solid #1e1e1e; padding: 20px; }
-    .stat-num { font-size: 28px; font-weight: 800; color: var(--green); }
-    .stat-label { font-size: 12px; color: var(--muted); margin-top: 4px; }
+    .btn-secondary { border: 1px solid #3a3a3a; color: var(--text); padding: 13px 26px; font-size: 12.5px; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; transition: all 0.2s; border-radius: 2px; background: rgba(20,20,20,0.6); }
+    .btn-secondary:hover { border-color: var(--green); color: var(--green); background: rgba(20,20,20,0.9); }
+    
+    /* Sleek Bottom Stats Ribbon (Eliminates the bulky black cards over the camera) */
+    .hero-bottom-ribbon { position: relative; z-index: 1; width: 100vw; margin-left: calc(-50vw + 50%); background: rgba(10,10,10,0.85); backdrop-filter: blur(10px); border-top: 1px solid rgba(255,255,255,0.08); padding: 18px 40px; }
+    .ribbon-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; align-items: center; }
+    .ribbon-item { display: flex; align-items: center; gap: 14px; }
+    .ribbon-num { font-size: 24px; font-weight: 800; color: var(--green); line-height: 1; letter-spacing: 0.5px; flex-shrink: 0; }
+    .ribbon-text { font-size: 11.5px; color: var(--muted); line-height: 1.4; }
+    .ribbon-text b { color: var(--white); font-weight: 600; display: block; margin-bottom: 2px; }
     section { padding: 80px 40px; }
     .section-inner { max-width: 1200px; margin: 0 auto; }
     .section-tag { font-size: 11px; letter-spacing: 3px; color: var(--green); text-transform: uppercase; margin-bottom: 12px; }
@@ -287,6 +288,8 @@
     .quote-float svg { width: 16px; height: 16px; fill: var(--black); flex-shrink: 0; }
     @media (max-width: 900px) {
       .hero-inner, .about-grid, .contact-grid { grid-template-columns: 1fr; }
+      .hero-bottom-ribbon { padding: 16px 20px; }
+      .ribbon-inner { grid-template-columns: repeat(2, 1fr); gap: 16px; }
       .products-grid { grid-template-columns: 1fr 1fr; }
       .products-grid .product-card:last-child:nth-child(odd) { grid-column: 1 / -1; max-width: 50%; margin: 0 auto; }
       .adv-grid { grid-template-columns: 1fr 1fr; }
@@ -325,25 +328,36 @@
 <section id="home">
   <div class="hero-inner">
     <div>
-      <div class="hero-tag">Trail Camera Manufacturing / Since 2015</div>
-      <h1 class="hero-h1">Professional<br><em>Trail Camera</em><br>Manufacturer &amp; OEM Supplier</h1>
-      <p class="hero-desc">We engineer and manufacture high-performance hunting cameras for outdoor brands, distributors, importers, and professional monitoring programs worldwide.</p>
+      <div class="hero-tag">Factory-Direct Trail Cameras · Since 2015</div>
+      <h1 class="hero-h1">Professional<br><em>Trail Camera</em><br>Manufacturer &amp; OEM Partner</h1>
+      <p class="hero-desc">We engineer and manufacture high-performance 4G cellular, solar, and wireless hunting cameras for outdoor brands, distributors, and private-label programs worldwide.</p>
       <div class="hero-btns">
-        <a class="btn-primary" href="products.html">Explore Products</a>
-        <a class="btn-secondary" href="#contact">Discuss Your Project</a>
+        <a class="btn-primary" href="products.html">Explore 12 Models &rarr;</a>
+        <a class="btn-secondary" href="#contact">Request OEM Quotation</a>
       </div>
     </div>
-    <div class="hero-right">
-      <div class="cert-badges">
-        <span class="cert-badge">CE Certified</span>
-        <span class="cert-badge">FCC Certified</span>
-        <span class="cert-badge">RoHS Certified</span>
+    <!-- Clean unobstructed right zone: lets the camouflage camera and forest deer shine through -->
+    <div></div>
+  </div>
+
+  <!-- Bottom Translucent Performance Stats Ribbon -->
+  <div class="hero-bottom-ribbon">
+    <div class="ribbon-inner">
+      <div class="ribbon-item">
+        <div class="ribbon-num">10+</div>
+        <div class="ribbon-text"><b>Years Experience</b>Trail camera R&amp;D since 2015</div>
       </div>
-      <div class="stat-grid">
-        <div class="stat-card"><div class="stat-num">10+</div><div class="stat-label">Years Manufacturing Experience</div></div>
-        <div class="stat-card"><div class="stat-num">50+</div><div class="stat-label">Countries Served</div></div>
-        <div class="stat-card"><div class="stat-num">OEM</div><div class="stat-label">From 100 pcs — Custom Logo & Packaging</div></div>
-        <div class="stat-card"><div class="stat-num">MOQ</div><div class="stat-label">Stock: 1 pc — No Minimum for Samples</div></div>
+      <div class="ribbon-item">
+        <div class="ribbon-num">50+</div>
+        <div class="ribbon-text"><b>Global Reach</b>Serving brands across 50+ countries</div>
+      </div>
+      <div class="ribbon-item">
+        <div class="ribbon-num">100</div>
+        <div class="ribbon-text"><b>Low OEM MOQ</b>Custom logo &amp; packaging from 100 pcs</div>
+      </div>
+      <div class="ribbon-item">
+        <div class="ribbon-num">100%</div>
+        <div class="ribbon-text"><b>Quality Certified</b>CE · FCC · RoHS full compliance</div>
       </div>
     </div>
   </div>
