@@ -1,78 +1,58 @@
-# Arvelix Vision — Trail Camera Website
+# SINMOS TECHNOLOGY — Professional Trail Camera Manufacturer
 
-> SHENZHEN SINMOS TECHNOLOGY CO., LTD is a professional trail camera (hunting camera) manufacturer founded in 2015, headquartered in Shenzhen, China. We design and manufacture high-performance trail cameras for global distributors, brand owners, importers, and outdoor retailers. All products are CE, FCC, and RoHS certified. We offer OEM & ODM services including logo printing and stickers from 100 pcs, packaging from 1,000 pcs, and firmware or hardware work by quotation.
+> SHENZHEN SINMOS TECHNOLOGY CO., LTD is a professional trail camera (hunting camera) manufacturer founded in 2015, headquartered in Shenzhen, China. We design and manufacture high-performance trail cameras for global distributors, brand owners, importers, and outdoor retailers. All products are CE, FCC, and RoHS certified. We offer OEM & ODM services including logo printing, custom packaging, firmware customization, and private label manufacturing from 100 pcs.
 
 ## Company Facts
-- Website name: Arvelix Vision
-- Legal Entity: SHENZHEN SINMOS TECHNOLOGY CO., LTD
+- Company Name: SHENZHEN SINMOS TECHNOLOGY CO., LTD
 - Founded: 2015
 - Location: 10th Floor, Jinxinnong Bldg, 18 Guangdian N.R., Guangming Sub-Dist., Shenzhen, Guangdong 518107, China
 - Certifications: CE, FCC, RoHS
 - Email: sales@sinmos.com
+- WhatsApp: +86 13418800187
 - Target Customers: Distributors, Brand Owners, Importers, Wholesalers, Amazon Sellers, Outdoor Retailers
-- MOQ: Samples from 1 pc. Logo printing and stickers: MOQ 100 pcs. Custom packaging: MOQ 1,000 pcs. Firmware customization and new hardware development: MOQ and feasibility confirmed by quotation.
+- MOQ: Stock from 1 pc; OEM from 100 pcs
 - OEM/ODM: Yes — logo printing, custom packaging, firmware customization, private label
-
-## Official Profiles (Same Entity)
-- Website: https://arvelixvision.com/
-- LinkedIn: https://www.linkedin.com/company/112734120/
-- YouTube: https://www.youtube.com/@sinmosofficial
-- Facebook: https://www.facebook.com/sinmosCN/
 
 ## Key Products (Trail Cameras)
 - PR1600: WiFi 4K trail camera — 60MP photo (60/42/36/20MP), 4K/1080P/720P video, 46pcs 940nm no-glow infrared, 0.3s trigger speed, 120° PIR detection up to 20m, IP65 waterproof, 8×AA batteries (up to 6 months), up to 128GB Micro SD, TrailCamGo app, 140*98*73mm, 298g
 - PR8000: 60MP photo, 8K video, WiFi, night vision 49-66ft — high-resolution WiFi trail camera
-- PR801LTE: 60MP photo resolution (confirm native sensor specification), 8K video, 4G LTE, IP65, EU/US bands — cellular trail camera with remote monitoring
+- PR801LTE: 60MP CMOS sensor, 8K video, 4G LTE, IP65, EU/US bands — cellular trail camera with remote monitoring
 - PR903G: 60MP, solar-powered, 4G LTE, IP65, night vision — solar cellular trail camera
 - PR802LTE: 60MP, 4G LTE transmission, IP65, night vision 49-66ft — cellular trail camera
-- H2G: 60MP, 4G LTE, solar panel, 7800mAh built-in battery, no AA batteries — solar 4G trail camera
+- H2G: 60MP, 4G LTE, solar panel, 7800mAh built-in battery — solar 4G trail camera
 - DL001: 1080P HD video, IP54 waterproof, IR night vision, motion detection — entry-level trail camera
-- PR903DW: 60MP, 4K video, WiFi, solar, 850nm infrared night vision, 5200mAh battery — solar WiFi trail camera
+- PR903DW: 60MP, 4K video, WiFi, solar, 940nm no-glow night vision, 5200mAh battery — solar WiFi trail camera
 - PR700: 58MP photo, 2.7K video, IP65 waterproof, 120° detection angle — mid-range trail camera
 - PR1200: 36MP photo, 1080P video, 0.6s trigger speed, 940nm no-glow IR — trail camera
 - H1W: 60MP, 8K video, WiFi, solar, 7800mAh battery — high-end solar WiFi trail camera
-- PR800: 58MP photo, 2.7K video, 46x 940nm no-glow night vision, 0.3s trigger, 120 degree detection up to 20m, IP65 waterproof, 8x AA (up to 6 months), up to 128GB TF card, 430g
 
 ## Key Selling Points
-
-
-
+- Fast Samples: within 2 days
+- Customized small orders: within 5 days
+- OEM projects: within 15 days
 - Stock ready for immediate shipment
 - Factory-direct pricing
 - 100% factory testing including 24-hour aging test
 
 ## FAQ
-- What is your MOQ? Samples from 1 pc. Logo printing and stickers: MOQ 100 pcs. Custom packaging: MOQ 1,000 pcs. Firmware customization and new hardware development: MOQ and feasibility confirmed by quotation.
+- What is your MOQ? Stock models: 1 pc. OEM/ODM orders: from 100 pcs.
 - Do you support OEM/ODM? Yes. Logo printing, custom packaging, firmware customization, private label manufacturing.
 - What certifications? CE, FCC, RoHS — compliant for European and North American markets.
-- Delivery time? In-stock samples are generally ready in 2 days. Private-label production generally takes 15–20 days after sample approval. Hardware development timing depends on customer requirements and is confirmed for each project.
+- Delivery time? Stock: 3-7 days. OEM: 15-25 days depending on customization.
 - Can I test samples? Yes, sample orders welcome (MOQ 1 pc), sample cost deducted from first bulk order.
 - Quality assurance? 100% inspection — sensor calibration, trigger speed test, waterproof seal check, 24-hour aging test.
 
-## Ordering Terms
-Samples from 1 pc. Logo printing and stickers: MOQ 100 pcs. Custom packaging: MOQ 1,000 pcs. Firmware customization and new hardware development: MOQ and feasibility confirmed by quotation.
-In-stock samples are generally ready in 2 days. Private-label production generally takes 15–20 days after sample approval. Hardware development timing depends on customer requirements and is confirmed for each project.
-
 ## Site Pages
-- [OEM / ODM Services](https://arvelixvision.com/oem-odm-trail-camera.html): Customization scope, verified MOQ, lead times and enquiry checklist
 - [Homepage](https://arvelixvision.com/): Professional trail camera manufacturer — company intro, certifications, B2B advantages, FAQ, inquiry form
-- [Products](https://arvelixvision.com/products.html): Full lineup of 12 trail camera models with specs and WhatsApp quote
+- [Products](https://arvelixvision.com/products.html): Full lineup of 11 trail camera models with specs and WhatsApp quote
 - [About Us](https://arvelixvision.com/about.html): Company history, factory tour video, certifications, quality standards
 - [Blog](https://arvelixvision.com/blog.html): Article index — trail camera buying guides, cellular cost analysis and OEM/ODM know-how
 
-## Product Detail Pages
-- [PR8000 8K WiFi Trail Camera](https://arvelixvision.com/pr8000-8k-wifi-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
-- [PR903G Solar 4G LTE Trail Camera](https://arvelixvision.com/pr903g-solar-4g-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
-- [DL001 1080P Trail Camera](https://arvelixvision.com/dl001-1080p-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
-- [PR903DW Solar WiFi Trail Camera](https://arvelixvision.com/pr903dw-solar-wifi-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
-- [PR700 2.7K Trail Camera](https://arvelixvision.com/pr700-2.7k-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
-- [PR1200 1080P Trail Camera](https://arvelixvision.com/pr1200-1080p-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
-- [H1W Solar WiFi Trail Camera](https://arvelixvision.com/h1w-solar-wifi-trail-camera.html): Specifications, applications, FAQ and wholesale inquiry
-
 ## Blog Posts
+- [Best Trail Camera for Property & Cabin Security in 2026](https://arvelixvision.com/best-trail-camera-for-property-security.html): Off-grid surveillance guide for remote cabins, farms, gates, and storage yards. Compares cellular trail cameras against consumer Wi-Fi cameras (Ring/Arlo), explains why 940nm no-glow is mandatory for anti-theft, models PR903G/H2G/PR801LTE/PR903DW, and tactical mounting guidelines to avoid camera tampering.
 - [Solar vs Battery Trail Camera - 5-Year Cost, Battery Count and Which to Buy](https://arvelixvision.com/solar-vs-battery-trail-camera.html): Battery consumption projection over five seasons, placement limits for panels (canopy shade), backup AA strategy, solar models PR903DW/PR903G/H1W/H2G specs, decision checklist
 - [Best Trail Camera for Deer Hunting in 2026 - Specs That Matter, Picks by Setup](https://arvelixvision.com/best-trail-camera-for-deer-hunting.html): Trigger speed versus megapixels, PIR detection coverage, 940nm no-glow for deer, battery strategy for cold season, model picks by setup (PR1600, PR700, PR1200, PR801LTE, PR903G, H1W), field placement tips
-- [850nm vs 940nm Night Vision - What Trail Camera Buyers Should Know](https://arvelixvision.com/850nm-vs-940nm-trail-camera.html): Infrared wavelength comparison, LED counts across the Arvelix Vision range (46pcs 940nm vs 2-4pc 850nm), animal reaction and detectability, battery impact, market preference by customer type
+- [850nm vs 940nm Night Vision - What Trail Camera Buyers Should Know](https://arvelixvision.com/850nm-vs-940nm-trail-camera.html): Infrared wavelength comparison, LED counts across the SINMOS range (46pcs 940nm vs 2-4pc 850nm), animal reaction and detectability, battery impact, market preference by customer type
 - [Cellular vs WiFi Trail Camera - Which One Fits Your Setup in 2026?](https://arvelixvision.com/cellular-vs-wifi-trail-camera.html): Range, running cost, battery drain, PR801LTE vs PR8000 comparison, BYO-SIM savings, solar options, buyer recommendations by use case
 - [How to Choose a Trail Camera in 2026: The Complete Buyer's Guide](https://arvelixvision.com/how-to-choose-trail-camera-2026.html): Trigger speed, night vision distance, cellular vs WiFi vs SD card, solar power, resolution, waterproofing, battery strategy
 - [Cellular Trail Cameras: The Real Cost of Monthly Plans (2026)](https://arvelixvision.com/cellular-trail-camera-plans-cost.html): Brand plan costs, BYO-SIM strategy, 3-year cost comparison, 50-80% savings
@@ -80,15 +60,5 @@ In-stock samples are generally ready in 2 days. Private-label production general
 
 ## Contact
 - Email: sales@sinmos.com
+- WhatsApp: +86 13418800187
 - Address: 10th Floor, Jinxinnong Bldg, 18 Guangdian N.R., Guangming Sub-Dist., Shenzhen, Guangdong 518107, China
-
-## Factory and quality control
-- [Quality control](https://arvelixvision.com/quality-control.html): Every camera undergoes airtightness testing during production. Factory footage shows assembly and an airtightness test station. Specific IP ratings require model-specific reports.
-- [Factory and documents](https://arvelixvision.com/about.html#factory): Factory photos, assembly footage and model-specific compliance documents.
-
-## Procurement guides
-- [Wholesale & Private-Label Trail Camera Sourcing Guide](https://arvelixvision.com/trail-camera-sourcing-guide.html): Compare trail camera connectivity, sample orders, private-label MOQ, production timing and model-specific documents before requesting a wholesale quotation.
-- [4G Trail Camera Compatibility: LTE Bands, SIM & App Checklist](https://arvelixvision.com/4g-trail-camera-compatibility.html): A purchasing checklist for cellular trail cameras: verify regional hardware, LTE bands, carrier acceptance, SIM settings, app fees and real network tests.
-- [Trail Camera Sample Testing Checklist for Importers & Brand Owners](https://arvelixvision.com/trail-camera-sample-testing-checklist.html): Evaluate a trail camera sample before bulk ordering: original footage, trigger trials, network checks, power conditions, documentation and written approval.
-
-Guide notes: These purchasing checklists are not measured performance reports or carrier certifications. Solar runtime depends on conditions; WiFi app access is local unless the exact model explicitly supports internet access. Confirm model-specific specifications and destination requirements before ordering.
