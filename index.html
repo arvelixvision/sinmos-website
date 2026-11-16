@@ -1345,8 +1345,13 @@
     document.getElementById('pdWA').href = 'https://wa.me/8613418800187?text=' + waMsg;
 
     const pdDedLink = document.getElementById('pdDedicatedLink');
-    if (model === 'PR903G') {
-      pdDedLink.href = 'pr903g-solar-4g-trail-camera.html';
+    const DEDICATED_PAGES = {
+      'PR903G': 'pr903g-solar-4g-trail-camera.html',
+      'PR1600': 'pr1600-wifi-4k-trail-camera.html',
+      'PR801LTE': 'pr801lte-8k-4g-trail-camera.html'
+    };
+    if (DEDICATED_PAGES[model]) {
+      pdDedLink.href = DEDICATED_PAGES[model];
       pdDedLink.style.display = 'inline-block';
     } else {
       pdDedLink.style.display = 'none';

@@ -56,6 +56,8 @@
 
 ## Individual Product Detail Pages (High-Citation Entity Pages)
 - [PR903G Solar 4G LTE Trail Camera](https://arvelixvision.com/pr903g-solar-4g-trail-camera.html): Flagship solar cellular trail camera. 60MP photo, 5K video, built-in 5200mAh lithium battery + solar panel + 8xAA backup, 0.3s trigger, 120-degree PIR detection angle, EU/US LTE frequency band customization, IP65 waterproof, factory OEM from 100 pcs.
+- [PR1600 WiFi 4K Trail Camera](https://arvelixvision.com/pr1600-wifi-4k-trail-camera.html): Wireless scouting hunting camera. 60MP photo, 4K video, 46pcs 940nm invisible no-glow infrared night vision up to 20m, 0.3s fast trigger speed, 120-degree PIR coverage, TrailCamGo mobile app control, IP65 waterproof, 8xAA battery power up to 6 months, factory OEM from 100 pcs.
+- [PR801LTE 8K 4G LTE Trail Camera](https://arvelixvision.com/pr801lte-8k-4g-trail-camera.html): Ultra HD cellular hunting camera. 60MP photo, 8K video, 4G LTE real-time remote image and video transmission, dedicated EU and US carrier band hardware configurations, 0.3s trigger speed, 120-degree detection angle, IP65 waterproof, factory OEM from 100 pcs.
 
 ## Blog Posts
 - [How to Choose an OEM Trail Camera Manufacturer: 7 Red Flags in Factory Audits](https://arvelixvision.com/how-to-choose-trail-camera-manufacturer.html): B2B sourcing and factory audit guide. 7 red flags when vetting Chinese manufacturers: interpolated vs native sensors, SMT cleanroom inspection, IP66 pneumatic decay leak testing, burn-in aging rooms, and custom firmware validation.
