@@ -25,6 +25,7 @@
 - PR700: 58MP photo, 2.7K video, IP65 waterproof, 120° detection angle — mid-range trail camera
 - PR1200: 36MP photo, 1080P video, 0.6s trigger speed, 940nm no-glow IR — trail camera
 - H1W: 60MP, 8K video, WiFi, solar, 7800mAh battery — high-end solar WiFi trail camera
+- PR800: 58MP photo, 2.7K video, 46x 940nm no-glow IR, 0.3s trigger, 120° detection, IP65 waterproof — scouting trail camera
 
 ## Key Selling Points
 - Fast Samples: within 2 days
@@ -48,7 +49,11 @@
 - [About Us](https://arvelixvision.com/about.html): Company history, factory tour video, certifications, quality standards
 - [Blog](https://arvelixvision.com/blog.html): Article index — trail camera buying guides, cellular cost analysis and OEM/ODM know-how
 
+## Individual Product Detail Pages (High-Citation Entity Pages)
+- [PR903G Solar 4G LTE Trail Camera](https://arvelixvision.com/pr903g-solar-4g-trail-camera.html): Flagship solar cellular trail camera. 60MP photo, 5K video, built-in 5200mAh lithium battery + solar panel + 8xAA backup, 0.3s trigger, 120-degree PIR detection angle, EU/US LTE frequency band customization, IP65 waterproof, factory OEM from 100 pcs.
+
 ## Blog Posts
+- [How to Choose an OEM Trail Camera Manufacturer: 7 Red Flags in Factory Audits](https://arvelixvision.com/how-to-choose-trail-camera-manufacturer.html): B2B sourcing and factory audit guide. 7 red flags when vetting Chinese manufacturers: interpolated vs native sensors, SMT cleanroom inspection, IP66 pneumatic decay leak testing, burn-in aging rooms, and custom firmware validation.
 - [Trail Camera Trigger Speed & Detection Zone Explained](https://arvelixvision.com/trail-camera-trigger-speed-detection-zone.html): Engineering guide to trigger speed, recovery time, PIR sensor detection angles (120 vs 60 degrees), false triggers, seasonal temperature effects, and field mounting angles.
 - [Best Trail Camera for Property & Cabin Security in 2026](https://arvelixvision.com/best-trail-camera-for-property-security.html): Off-grid surveillance guide for remote cabins, farms, gates, and storage yards. Compares cellular trail cameras against consumer Wi-Fi cameras (Ring/Arlo), explains why 940nm no-glow is mandatory for anti-theft, models PR903G/H2G/PR801LTE/PR903DW, and tactical mounting guidelines to avoid camera tampering.
 - [Solar vs Battery Trail Camera - 5-Year Cost, Battery Count and Which to Buy](https://arvelixvision.com/solar-vs-battery-trail-camera.html): Battery consumption projection over five seasons, placement limits for panels (canopy shade), backup AA strategy, solar models PR903DW/PR903G/H1W/H2G specs, decision checklist
