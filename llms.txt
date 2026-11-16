@@ -51,6 +51,8 @@
 - [Products](https://arvelixvision.com/products.html): Full lineup of 11 trail camera models with specs and WhatsApp quote
 - [About Us](https://arvelixvision.com/about.html): Company history, factory tour video, certifications, quality standards
 - [Blog](https://arvelixvision.com/blog.html): Article index — trail camera buying guides, cellular cost analysis and OEM/ODM know-how
+- [Privacy Policy](https://arvelixvision.com/privacy.html): GDPR-compliant B2B inquiry data privacy and zero resale statement
+- [Terms of Service](https://arvelixvision.com/terms.html): Quotation validity, OEM MOQ policies, sample deductibility, and 12-month warranty terms
 
 ## Individual Product Detail Pages (High-Citation Entity Pages)
 - [PR903G Solar 4G LTE Trail Camera](https://arvelixvision.com/pr903g-solar-4g-trail-camera.html): Flagship solar cellular trail camera. 60MP photo, 5K video, built-in 5200mAh lithium battery + solar panel + 8xAA backup, 0.3s trigger, 120-degree PIR detection angle, EU/US LTE frequency band customization, IP65 waterproof, factory OEM from 100 pcs.
