@@ -75,9 +75,12 @@
     .cert-badge { border: 1px solid #2a2a2a; padding: 6px 14px; font-size: 12px; color: var(--muted); letter-spacing: 1px; }
 
     /* FILTER TABS */
-    .filter-bar { padding: 32px 40px 0; max-width: 1400px; margin: 0 auto; display: flex; gap: 8px; flex-wrap: wrap; }
-    .filter-btn { border: 1px solid #2a2a2a; background: none; color: var(--muted); padding: 8px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; transition: all 0.2s; font-family: inherit; }
-    .filter-btn:hover, .filter-btn.active { border-color: var(--green); color: var(--green); background: rgba(126,211,33,0.06); }
+    .filter-bar { padding: 32px 40px 0; max-width: 1400px; margin: 0 auto; display: flex; gap: 10px; flex-wrap: wrap; }
+    .filter-btn { border: 1px solid #2a2a2a; background: var(--gray); color: var(--muted); padding: 9px 18px; font-size: 12px; letter-spacing: 0.5px; text-transform: uppercase; cursor: pointer; transition: all 0.2s; font-family: inherit; border-radius: 2px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; }
+    .filter-btn .filter-count { font-size: 10px; background: #222; color: #888; padding: 2px 7px; border-radius: 10px; transition: all 0.2s; }
+    .filter-btn:hover, .filter-btn.active { border-color: var(--green); color: var(--green); background: rgba(126,211,33,0.08); }
+    .filter-btn.active .filter-count { background: var(--green); color: var(--black); font-weight: 700; }
+    .filter-desc { max-width: 1400px; margin: 12px auto 0; padding: 0 40px; font-size: 13px; color: var(--muted); line-height: 1.5; }
 
     /* PRODUCTS GRID */
     .products-section { padding: 32px 40px 80px; max-width: 1400px; margin: 0 auto; }
@@ -189,8 +192,8 @@
 
 <div class="page-header">
   <div class="page-tag">Full Product Catalog</div>
-  <h1 class="page-h1">Wholesale Trail Camera <em>Lineup</em> &mdash; 11 Factory-Direct Models: 4G LTE, Solar &amp; WiFi</h1>
-  <p class="page-desc">11 professional-grade models for wildlife monitoring, hunting, and outdoor security. OEM & ODM available from 100 pcs.</p>
+  <h1 class="page-h1">Wholesale Trail Camera <em>Lineup</em> &mdash; 12 Factory-Direct Models: 4G LTE, Solar &amp; WiFi</h1>
+  <p class="page-desc">12 professional-grade models for wildlife monitoring, hunting, and outdoor security. OEM & ODM available from 100 pcs.</p>
   <div class="cert-row">
     <span class="cert-badge">CE Certified</span>
     <span class="cert-badge">FCC Certified</span>
@@ -201,13 +204,14 @@
 </div>
 
 <div class="filter-bar">
-  <button class="filter-btn active" onclick="filterProducts('all', this)">All Products</button>
-  <button class="filter-btn" onclick="filterProducts('4g', this)">4G LTE</button>
-  <button class="filter-btn" onclick="filterProducts('solar', this)">Solar</button>
-  <button class="filter-btn" onclick="filterProducts('wifi', this)">Wi-Fi</button>
-  <button class="filter-btn" onclick="filterProducts('8k', this)">8K Video</button>
-  <button class="filter-btn" onclick="filterProducts('entry', this)">Entry Level</button>
+  <button class="filter-btn active" onclick="filterProducts('all', this)">All Models <span class="filter-count">12</span></button>
+  <button class="filter-btn" onclick="filterProducts('4g', this)">Cellular 4G <span class="filter-count">4</span></button>
+  <button class="filter-btn" onclick="filterProducts('solar', this)">Solar Powered <span class="filter-count">4</span></button>
+  <button class="filter-btn" onclick="filterProducts('wifi', this)">WiFi &amp; Wireless <span class="filter-count">4</span></button>
+  <button class="filter-btn" onclick="filterProducts('8k', this)">8K Ultra-HD <span class="filter-count">3</span></button>
+  <button class="filter-btn" onclick="filterProducts('scouting', this)">Standard Scouting <span class="filter-count">4</span></button>
 </div>
+<div class="filter-desc" id="filterDesc">Complete 12-model factory direct lineup with CE, FCC, RoHS certifications and low OEM MOQ from 100 pcs.</div>
 
 <div class="products-section">
   <div class="products-grid" id="productsGrid">
@@ -357,7 +361,7 @@
       </div>
     </div>
 
-    <div class="product-card" data-tags="" onclick="openModal('PR700')">
+    <div class="product-card" data-tags="scouting entry" onclick="openModal('PR700')">
       <img class="product-card-img" src="https://sc02.alicdn.com/kf/Hb5a18677b1264a32a208e1da0ed610eaK.jpg_.webp" alt="PR700" loading="lazy" />
       <div class="product-card-body">
         <div class="product-card-tag">Model</div>
@@ -408,7 +412,7 @@
       </div>
     </div>
 
-    <div class="product-card" data-tags="2.7k 940nm" onclick="openModal('PR800')">
+    <div class="product-card" data-tags="scouting entry 2.7k" onclick="openModal('PR800')">
       <img class="product-card-img" src="https://sc02.alicdn.com/kf/Hac0dfec23546424098b31bfe8f1e3cf3r.jpg_.webp" alt="PR800" loading="lazy" />
       <div class="product-card-body">
         <div class="product-card-tag">Model</div>
@@ -870,11 +874,25 @@ function handleOverlayClick(e) {
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
+const filterDescriptions = {
+  all: "Complete 12-model factory direct lineup with CE, FCC, RoHS certifications and low OEM MOQ from 100 pcs.",
+  '4g': "Cellular 4G LTE series with direct mobile push notifications, remote photo/video transmission, and multi-carrier regional modems for off-grid properties.",
+  solar: "Solar hybrid series featuring integrated solar panels and high-capacity lithium batteries for autonomous, maintenance-free field operation.",
+  wifi: "WiFi & Bluetooth high-speed wireless series for convenient on-site media download and parameter configuration without dismounting cameras.",
+  '8k': "Ultra-HD 8K video series delivering cinematic resolution and forensic detail for high-end wildlife monitoring and perimeter security.",
+  scouting: "Proven scouting & entry-level series offering industry-standard reliability, ultra-long standby battery life, and superior cost-effectiveness."
+};
+
 function filterProducts(tag, btn) {
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
+  const descEl = document.getElementById('filterDesc');
+  if (descEl && filterDescriptions[tag]) {
+    descEl.textContent = filterDescriptions[tag];
+  }
   document.querySelectorAll('.product-card').forEach(card => {
-    if (tag === 'all' || card.dataset.tags.includes(tag)) {
+    const tags = (card.dataset.tags || '').split(' ');
+    if (tag === 'all' || tags.includes(tag) || (tag === '4g' && (tags.includes('4g') || tags.includes('cellular')))) {
       card.style.display = '';
     } else {
       card.style.display = 'none';
