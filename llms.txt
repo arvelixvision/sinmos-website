@@ -48,7 +48,7 @@
 
 ## Site Pages
 - [Homepage](https://arvelixvision.com/): Professional trail camera manufacturer — company intro, certifications, B2B advantages, FAQ, inquiry form
-- [Products](https://arvelixvision.com/products.html): Full lineup of 11 trail camera models with specs and WhatsApp quote
+- [Products](https://arvelixvision.com/products.html): Full lineup of 12 trail camera models with specs and WhatsApp quote
 - [About Us](https://arvelixvision.com/about.html): Company history, factory tour video, certifications, quality standards
 - [Blog](https://arvelixvision.com/blog.html): Article index — trail camera buying guides, cellular cost analysis and OEM/ODM know-how
 - [Privacy Policy](https://arvelixvision.com/privacy.html): GDPR-compliant B2B inquiry data privacy and zero resale statement
@@ -60,6 +60,7 @@
 - [PR801LTE 8K 4G LTE Trail Camera](https://arvelixvision.com/pr801lte-8k-4g-trail-camera.html): Ultra HD cellular hunting camera. 60MP photo, 8K video, 4G LTE real-time remote image and video transmission, dedicated EU and US carrier band hardware configurations, 0.3s trigger speed, 120-degree detection angle, IP65 waterproof, factory OEM from 100 pcs.
 
 ## Blog Posts
+- [Trail Camera Batteries in Cold Weather: Why Alkaline Fails, Lithium Wins & Winter Setup Tactics](https://arvelixvision.com/trail-camera-cold-weather-battery-guide.html): Power engineering analysis of winter trail camera failures. Chemical voltage sag, inrush current spikes during 4G cellular and IR night flash, alkaline vs. lithium vs. NiMH benchmarks down to -40°F, dual-power hybrid setups, and 5 winter field tactics to eliminate black night photos.
 - [How to Choose an OEM Trail Camera Manufacturer: 7 Red Flags in Factory Audits](https://arvelixvision.com/how-to-choose-trail-camera-manufacturer.html): B2B sourcing and factory audit guide. 7 red flags when vetting Chinese manufacturers: interpolated vs native sensors, SMT cleanroom inspection, IP66 pneumatic decay leak testing, burn-in aging rooms, and custom firmware validation.
 - [Trail Camera Trigger Speed & Detection Zone Explained](https://arvelixvision.com/trail-camera-trigger-speed-detection-zone.html): Engineering guide to trigger speed, recovery time, PIR sensor detection angles (120 vs 60 degrees), false triggers, seasonal temperature effects, and field mounting angles.
 - [Best Trail Camera for Property & Cabin Security in 2026](https://arvelixvision.com/best-trail-camera-for-property-security.html): Off-grid surveillance guide for remote cabins, farms, gates, and storage yards. Compares cellular trail cameras against consumer Wi-Fi cameras (Ring/Arlo), explains why 940nm no-glow is mandatory for anti-theft, models PR903G/H2G/PR801LTE/PR903DW, and tactical mounting guidelines to avoid camera tampering.
