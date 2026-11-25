@@ -60,6 +60,7 @@ Last updated: 2026-11-24
 
 ## Individual Product Detail Pages (High-Citation Entity Pages)
 - [PR903G Solar 4G LTE Trail Camera](https://arvelixvision.com/pr903g-solar-4g-trail-camera.html): Flagship solar cellular trail camera. 60MP photo, 5K video, 5200mAh lithium battery + solar panel + 8×AA backup, 0.3s trigger, 120° PIR detection, EU/US LTE band options, IP65, OEM from 100 pcs.
+- [H2G Solar 4G Cellular Trail Camera](https://arvelixvision.com/h2g-solar-4g-trail-camera.html): Autonomous 365-day solar 4G trail camera. 60MP photo, 8K video, integrated 7800mAh lithium rechargeable battery + top solar panel, 4G LTE remote push alerts, 0.3s trigger, IP65, OEM from 100 pcs.
 - [PR8000 8K WiFi Trail Camera](https://arvelixvision.com/pr8000-8k-wifi-trail-camera.html): Ultra HD wireless scouting trail camera. 60MP photo, 8K video, TrailCamGo iOS/Android app with 20m high-speed WiFi download, Bluetooth wakeup, 0.3s trigger, IP65, 8×AA, zero monthly fees, OEM from 100 pcs.
 - [PR1600 WiFi 4K Trail Camera](https://arvelixvision.com/pr1600-wifi-4k-trail-camera.html): Wireless scouting trail camera. 60MP photo, 4K video, 46× 940nm no-glow infrared up to 20m, 0.3s trigger, 120° PIR coverage, TrailCamGo app, IP65, 8×AA up to 6 months, 430g, OEM from 100 pcs.
 - [PR801LTE 8K 4G LTE Trail Camera](https://arvelixvision.com/pr801lte-8k-4g-trail-camera.html): Ultra HD cellular trail camera. 60MP photo, 8K video, 4G LTE real-time image and video alerts, dedicated EU and US carrier band configurations, 0.3s trigger, 120° detection, IP66, OEM from 100 pcs.
