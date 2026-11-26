@@ -52,13 +52,14 @@ Last updated: 2026-11-24
 
 ## Site Pages
 - [Homepage](https://arvelixvision.com/): Trail camera manufacturer profile — company intro, 12-model lineup, certifications, B2B advantages, FAQ, inquiry form
-- [Products](https://arvelixvision.com/products.html): Full lineup of 12 trail camera models with specifications, comparison table and WhatsApp quote
+- [Products](https://arvelixvision.com/products.html): Full lineup of 13 trail camera models with specifications, comparison table and WhatsApp quote
 - [About Us](https://arvelixvision.com/about.html): Company history, factory tour video, certifications, quality standards
 - [Blog](https://arvelixvision.com/blog.html): Article index — trail camera buying guides, cellular cost analysis and OEM/ODM know-how
 - [Privacy Policy](https://arvelixvision.com/privacy.html): GDPR-compliant B2B inquiry data privacy and zero resale statement
 - [Terms of Service](https://arvelixvision.com/terms.html): Quotation validity, OEM MOQ policies, sample deductibility, and 12-month warranty terms
 
 ## Individual Product Detail Pages (High-Citation Entity Pages)
+- [PR6000 4K Solar Hunting Camera](https://arvelixvision.com/pr6000-4k-solar-trail-camera.html): High-performance 4K solar trail camera. 64MP photo, 4K video, built-in 5200mAh rechargeable lithium battery + external solar panel, 2pc 850nm IR, 0.3s trigger, 120° PIR detection, WiFi app connectivity, IP66 waterproof, OEM from 100 pcs.
 - [PR903G Solar 4G LTE Trail Camera](https://arvelixvision.com/pr903g-solar-4g-trail-camera.html): Flagship solar cellular trail camera. 60MP photo, 5K video, 5200mAh lithium battery + solar panel + 8×AA backup, 0.3s trigger, 120° PIR detection, EU/US LTE band options, IP65, OEM from 100 pcs.
 - [H2G Solar 4G Cellular Trail Camera](https://arvelixvision.com/h2g-solar-4g-trail-camera.html): Autonomous 365-day solar 4G trail camera. 60MP photo, 8K video, integrated 7800mAh lithium rechargeable battery + top solar panel, 4G LTE remote push alerts, 0.3s trigger, IP65, OEM from 100 pcs.
 - [PR8000 8K WiFi Trail Camera](https://arvelixvision.com/pr8000-8k-wifi-trail-camera.html): Ultra HD wireless scouting trail camera. 60MP photo, 8K video, TrailCamGo iOS/Android app with 20m high-speed WiFi download, Bluetooth wakeup, 0.3s trigger, IP65, 8×AA, zero monthly fees, OEM from 100 pcs.
